@@ -23,6 +23,17 @@
         "className":"fa fa-facebook"
       },
       {
+        "name":"linkedin",
+        "url":"www.linkedin.com/in/renhui-zhou-4a6743181",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+
+      {
         "name":"github",
         "url":"https://github.com/Baronno",
         "className":"fa fa-github"

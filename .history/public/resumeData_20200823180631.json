@@ -23,6 +23,13 @@
         "className":"fa fa-facebook"
       },
       {
+        "name":"linkedin",
+        "url":"www.linkedin.com/in/renhui-zhou-4a6743181",
+        "className":"fa fa-linkedin"
+      },
+    
+
+      {
         "name":"github",
         "url":"https://github.com/Baronno",
         "className":"fa fa-github"

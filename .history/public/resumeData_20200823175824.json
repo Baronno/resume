@@ -14,13 +14,18 @@
       "state":"NSW",
       "zip": "2220"
     },
-    "website": "https://clever-hangar-282201.df.r.appspot.com/",
-    "resumedownload":"https://clever-hangar-282201.df.r.appspot.com/",
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
     "social":[
       {
         "name":"facebook",
         "url":"https://www.facebook.com/renhui.zhou",
         "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"www.linkedin.com/in/renhui-zhou-4a6743181",
+        "className":"fa fa-linkedin"
       },
       {
         "name":"github",
@@ -88,7 +93,7 @@
         "title":"Resume Website",
         "category":"A React based resume website",
         "image":"resume-website.jpg",
-        "url":"https://clever-hangar-282201.df.r.appspot.com/"
+        "url":"http://www.timbakerdev.com"
       }
     ]
   },
