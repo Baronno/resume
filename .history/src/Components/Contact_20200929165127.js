@@ -35,7 +35,7 @@ class Contact extends Component {
 
             <div className="row">
                <div className="eight columns">
-                  <font size="3" color="red"> Email function will update soon </font>
+
                   <form action="" method="post" id="contactForm" name="contactForm">
                      <fieldset>
 
@@ -92,27 +92,27 @@ class Contact extends Component {
                      <ul id="twitter">
                         <li>
                            <span>
-                              Welcome to chat!<br />
+                              Welcome to chat!
 
-                              <a href="#">https://clever-hangar-282201.df.r.appspot.com</a>
+                        <a href="#">https://clever-hangar-282201.df.r.appspot.com</a>
                            </span>
                            <b><a href="#">2 Days Ago</a></b>
                         </li>
                         <li>
                            <span>
-                              Comment function will be added in the following plan!<br />
+                              Comment function will be added in the following plan!
 
-                              <a href="#">https://clever-hangar-282201.df.r.appspot.com</a>
-                           </span>
-                           <b><a href="#">3 Days Ago</a></b>
-                        </li>
-                     </ul>
-                  </div>
-               </aside>
-            </div>
-         </section>
-      );
-   }
+                                 <a href="#">https://clever-hangar-282201.df.r.appspot.com</a>
+                        </span>
+                              <b><a href="#">3 Days Ago</a></b>
+                     </li>
+                  </ul>
+		         </div>
+            </aside>
+      </div>
+   </section>
+    );
+  }
 }
 
 export default Contact;
