@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import cv from '../cv.pdf'
-
 
 class About extends Component {
   render() {
@@ -15,7 +13,7 @@ class About extends Component {
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = "../cv.pdf"+this.props.data.resumedownload;
+      var resumeDownload = this.props.data.resumedownload;
     }
 
     return (
@@ -41,12 +39,8 @@ class About extends Component {
 					   </p>
                </div>
                <div className="columns download">
-               <p>
-               <a href="../" download="cv.pdf"><button>Resume Download</button></a>
-               
- 
-
-
+                  <p>
+                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>

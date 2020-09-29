@@ -15,7 +15,7 @@ class About extends Component {
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = "../cv.pdf"+this.props.data.resumedownload;
+      var resumeDownload = "rcv"+this.props.data.resumedownload;
     }
 
     return (
@@ -42,11 +42,8 @@ class About extends Component {
                </div>
                <div className="columns download">
                <p>
-               <a href="../" download="cv.pdf"><button>Resume Download</button></a>
-               
- 
-
-
+               <a href="../cv.pdf" download="cv.pdf">点击下载</a>
+   <a href="../cv.pdf" className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>

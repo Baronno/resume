@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import cv from '../cv.pdf'
-
 
 class About extends Component {
   render() {
@@ -15,14 +13,14 @@ class About extends Component {
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = "../cv.pdf"+this.props.data.resumedownload;
+      var resumeDownload = this.props.data.resumedownload;
     }
 
     return (
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Baron Zhou profio pic" />
+            <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
@@ -41,12 +39,8 @@ class About extends Component {
 					   </p>
                </div>
                <div className="columns download">
-               <p>
-               <a href="../" download="cv.pdf"><button>Resume Download</button></a>
-               
- 
-
-
+                  <p>
+                     <a href="H:\node\resume-app\public\images" download = "React developer_ baron_0424790118> Resume Download!</a>
                   </p>
                </div>
             </div>
