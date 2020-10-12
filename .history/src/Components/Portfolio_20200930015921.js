@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
 class Portfolio extends Component {
- 
+  const showCV = () => {
+    window.open(cv)
+  }
   render() {
 
     if(this.props.data){

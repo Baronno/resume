@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-
+import { Button } from './Button'
+import './Header.css'
+import '../App.css'
 import cv from '../cv.pdf'
 class About extends Component {
-
-
    render() {
 
       if (this.props.data) {
@@ -17,10 +17,9 @@ class About extends Component {
          var phone = this.props.data.phone;
          var email = this.props.data.email;
 
-
       }
-      return (
 
+      return (
          <section id="about">
             <div className="row">
                <div className="three columns">
@@ -44,17 +43,17 @@ class About extends Component {
                      </div>
                      <div className="columns download">
                         <p>
-                           <a href="../" download="cv.pdf"><button>Resume Download</button></a>
+                           <a href="../cv.pdf" >Download</a>
+                           
                         </p>
                      </div>
                   </div>
                </div>
             </div>
+
          </section>
       );
-
    }
-
 }
 
 export default About;

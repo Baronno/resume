@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
-import cv from '../cv.pdf'
+
+
 class About extends Component {
-
-
    render() {
 
       if (this.props.data) {
@@ -17,10 +16,9 @@ class About extends Component {
          var phone = this.props.data.phone;
          var email = this.props.data.email;
 
-
       }
-      return (
 
+      return (
          <section id="about">
             <div className="row">
                <div className="three columns">
@@ -50,11 +48,10 @@ class About extends Component {
                   </div>
                </div>
             </div>
+
          </section>
       );
-
    }
-
 }
 
 export default About;
